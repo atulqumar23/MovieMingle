@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: movieMingleAtulBackend
+    env: node
+    branch: master
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: "5000"
+      - key: MONGO_URI
+        value: "mongodb+srv://amanpatel3045_db_user:pkYN4Jv9BJzJJzWn@cluster0.3s337g8.mongodb.net/moviesDB?retryWrites=true&w=majority&appName=Cluster0"
+      - key: JWT_SECRET
+        value: "supersecretkeychangeit"
+      - key: JWT_EXPIRES_IN
+        value: "7d"
+      - key: RATE_LIMIT_WINDOW_MS
+        value: "60000"
+      - key: RATE_LIMIT_MAX
+        value: "100"
