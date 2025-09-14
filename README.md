@@ -2,7 +2,7 @@
 
 A full-stack web application where users can browse movies, read and write reviews, rate films, and manage a personal watchlist.
 
-Built with React (frontend) and Node.js + Express + MongoDB/SQL (backend).
+Built with React (frontend) and Node.js + Express + MongoDB (backend).
 
 ✨ Features
 
@@ -28,39 +28,15 @@ Frontend
 
 React, React Router
 
-Redux / Context API (state management)
-
 Axios (API calls)
-
-Tailwind CSS / Material UI (UI components)
 
 Backend
 
 Node.js, Express
 
-MongoDB / SQL (database)
+MongoDB 
 
 JWT + bcrypt (authentication & password hashing)
-
-📂 Project Structure
-movie-review-platform/
-│
-├── backend/
-│   ├── models/        # Database schemas
-│   ├── routes/        # API endpoints
-│   ├── controllers/   # Business logic
-│   ├── middleware/    # Auth, error handling
-│   └── server.js      # Express app entry point
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/ # Reusable components
-│   │   ├── pages/      # Page components
-│   │   ├── store/      # Redux/Context setup
-│   │   └── App.js      # Main app
-│   └── package.json
-│
-└── README.md
 
 ⚙️ Setup & Installation
 1. Clone the Repository
@@ -123,8 +99,6 @@ Register/Login with JWT-based authentication
 
 Passwords securely hashed using bcrypt
 
-Protected routes for user actions (reviews, watchlist, profile updates)
-
 🚀 Future Enhancements
 
 🎥 Movie recommendations based on ratings
@@ -135,7 +109,7 @@ Protected routes for user actions (reviews, watchlist, profile updates)
 
 🔎 Advanced search with multiple filters
 
-🌍 Deployment on Vercel/Netlify + Render/Heroku
+🌍 Deployment on Vercel + Render
 
 📄 License
 
